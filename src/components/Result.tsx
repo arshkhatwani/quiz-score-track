@@ -4,7 +4,9 @@ import { questionNumState, scoreState } from "../states";
 export default function Result() {
     const questionNum = useRecoilValue(questionNumState) - 1;
     const score = useRecoilValue(scoreState);
-    const percentage = ((score * 100) / questionNum).toFixed(2);
+    const percentage = questionNum
+        ? ((score * 100) / questionNum).toFixed(2)
+        : 0;
 
     return (
         <div className="pt-20 flex flex-col justify-center items-center gap-10">
