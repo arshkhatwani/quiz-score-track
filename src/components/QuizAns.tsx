@@ -7,8 +7,8 @@ export default function QuizAns() {
             <QuestionNum />
 
             <div className="mt-40 flex justify-evenly">
-                <AnsBtn label="Correct" />
                 <AnsBtn label="Incorrect" />
+                <AnsBtn label="Correct" />
             </div>
         </div>
     );
