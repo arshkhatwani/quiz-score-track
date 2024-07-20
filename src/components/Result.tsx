@@ -8,13 +8,13 @@ export default function Result() {
 
     return (
         <div className="pt-20 flex flex-col justify-center items-center gap-10">
-            <h1 className="text-center text-5xl md:text-6xl font-bold text-white">
+            <h1 className="text-center text-4xl md:text-6xl font-bold text-white">
                 Total Questions: {questionNum}
             </h1>
-            <h1 className="text-center text-5xl md:text-6xl font-bold text-white">
+            <h1 className="text-center text-4xl md:text-6xl font-bold text-white">
                 Score: {score}/{questionNum}
             </h1>
-            <h1 className="text-center text-5xl md:text-6xl font-bold text-white">
+            <h1 className="text-center text-4xl md:text-6xl font-bold text-white">
                 Percentage: {percentage}
             </h1>
         </div>
