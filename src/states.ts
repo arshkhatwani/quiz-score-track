@@ -9,3 +9,8 @@ export const questionNumState = atom({
     key: "questionNum",
     default: 1,
 });
+
+export const activeQuestionState = atom({
+    key: "activeQuestion",
+    default: true,
+});
